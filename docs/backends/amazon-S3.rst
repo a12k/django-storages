@@ -25,6 +25,10 @@ Your Amazon Web Services secret access key, as a string.
 
 Your Amazon Web Services storage bucket name, as a string.
 
+``AWS_DEFAULT_ACL`` (optional)
+
+If set to ``private`` the Access Control List is changed from the default ``public-read`` to restrict access to files. 
+
 ``AWS_AUTO_CREATE_BUCKET`` (optional)
 
 If set to ``True`` the bucket specified in ``AWS_STORAGE_BUCKET_NAME`` is automatically created.
